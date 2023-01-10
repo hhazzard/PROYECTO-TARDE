@@ -1,0 +1,208 @@
+a{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+header,footer{
+    display: flex;
+    height: 90px;
+    background: rgb(158, 98, 98);
+    border-style: solid;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center ;
+    padding: 10px;
+    
+}
+
+.logo img{
+    height: 110px;
+    
+}
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px; 
+}
+nav a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* aqui comienza el body */
+
+/* imagen bg */
+.main1{
+    height: 1200px;
+    background-image: url(../assets/img/img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+
+.main2{
+    height: 1200px;
+    background-image: url(../assets/img/qs.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+
+.main3{
+    height: 1200px;
+    background-image: url(../assets/img/servicio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+
+.main4{
+    height: 1200px;
+    background-image: url(../assets/img/contactanos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+
+.main5{
+    height: 1200px;
+    background-image: url(../assets/img/equipo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+
+
+/* imagenes fijas */
+.flotante1{
+    
+    position: absolute; 
+    border-style: solid;
+    left: 100px;
+    top: 200px;
+    border-color: beige;
+}
+
+.carpi{
+    left: 100;
+    margin-top: 600;    
+}
+
+.flotante2{
+    position: absolute;
+    border-style: solid;
+    left: 600px;
+    top: 200px;
+    border-color: beige;
+}
+
+.flotante3{
+    position: absolute;
+    border-style: solid;
+    left: 1000px;
+    top: 200px;
+    border-color: beige;
+}
+
+
+.flotante1:hover{
+    transform: scale(0.98);
+}        
+
+.flotante2:hover{
+    transform: scale(0.98);
+}   
+
+.flotante3:hover{
+    transform: scale(0.98);
+}   
+
+
+
+
+
+/* aqui comienza la aplicacion a movil */
+
+@media (max-width: 320px) {
+    header,footer{
+    display: flex;
+    background-color: rgba(219, 208, 54, 0.755);
+    flex-direction: column; 
+    height: 30px;
+    align-items: center; 
+    padding: 10px;
+}
+
+nav a{
+    display: flex;
+    background-color: rgba(110, 49, 215, 0.755);
+    flex-direction: column; 
+    height: 10px;
+    align-items: center; 
+    padding: 5px;
+    /* font-weight: 200; */
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.main1{
+    height: 1200px;
+    background-image: url(../assets/img/img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+}
+/* aqui orgnizo el loco  */
+
+
+
+
+
+
+
+
+
+
+
+
+
